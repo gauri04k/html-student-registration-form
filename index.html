@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+
+<body>
+    <h1>Student Portfolio & Registration Form</h1>
+    <h3>Welcome Future Software Engineer</h3>
+
+    <hr>
+    <h2>Personal Information</h2>
+
+
+    <form action="success.html">
+
+        Full Name:
+        <input type="text" placeholder="Enter Full Name" minlength="3" maxlength="30" required autofocus><br>
+
+        <br> Email:
+        <input type="email" placeholder="Enter Email" required>
+        <br>
+
+        <br>Password:
+        <input type="password" placeholder="Enter Password" minlength="8" required> <br>
+
+        <br> Mobile Number:
+        <input type="tel" placeholder="7559215432" pattern="[0-9]{10} required"><br>
+
+        <br>Date OF Birth:
+        <input type="date" required><br>
+
+        <br> Age:
+        <input type="number" min="18" max="60"><br>
+
+
+        <br>State:
+
+        <select>
+    <option>Maharashtra</option>
+    <option>Gujarat</option>
+    <option>Karnataka</option>
+      </select>
+
+        <br><br>
+        <br>About Yourself:
+        <br>
+        <textarea rows="5" cols="40" placeholder="Write something about yourself"></textarea>
+
+        <br>Gender:
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+
+        <br><br>
+
+        <hr>
+
+        <h2>Education Details</h2>
+
+        College Name:
+        <input type="text" value="DBATU University" readonly><br>
+
+        <br> Branch:
+        <input type="text" value="Computer Science Engineering"><br>
+
+        <br>Current Year:
+        <input type="number" min="1" max="4"><br>
+
+        <br>CGPA:
+        <input type="number" min="0" max="10" step="0.01"><br><br>
+
+        <hr>
+
+        <h2>Skill Section</h2>
+
+        Skills:<br>
+
+        <input type="checkbox">HTML
+        <br>
+
+        <input type="checkbox">CSS
+        <br>
+
+        <input type="checkbox">JAVA
+        <br>
+
+        <input type="checkbox">Spring Boot<br>
+
+        <br> Skill Confidence
+
+        <input type="range" min="0" max="100"><br>
+
+        <br> Favorite Color:
+        <input type="color"><br>
+
+        <br>
+        <hr>
+
+        <h2>Social Information</h2>
+
+        Portfolio Website:
+
+        <input type="url" placeholder="https://yourportfolio.com"><br>
+        <br> LinkedIn:
+
+        <input type="url" placeholder="https://www.linkedin.com/in/gauri-kapadnis-0321b527b/"><br>
+
+        <br> Search Technology:
+        <input type="search" placeholder="Search Skill"><br>
+        <br>
+
+        <hr>
+
+        <h2>Upload Document </h2>
+
+        Resume:
+        <input type="file"><br>
+
+        <br> Portfolio Photo
+        <input type="file"><br>
+
+        <br>
+
+        <hr>
+        <h2>Other Input</h2>
+
+        Preferred Joining Month:
+        <input type="week"><br>
+
+
+        <br>Available Week:
+        <input type="week"><br>
+
+        <br>Preferred Interview Time:
+        <input type="time"><br>
+
+        <br>Meeting Schedule :
+        <input type="datetime-local"><br>
+
+        <br>City:
+        <input type="text" value="Pune" disabled><br>
+
+        <br>
+        <input type="hidden" value="student123">
+
+        <hr>
+
+        <input type="submit" value="Register">
+
+
+        <input type="reset" value="Clear Form">
+
+    </form>
+</body>
+
+
+</html>
